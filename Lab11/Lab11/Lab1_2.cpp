@@ -11,7 +11,7 @@ if (cin.fail()) {
 	return 0;
 }
 if (c <= -3) {
-	f = log((c,2)+1);
+	f = pow(log((c,2)+1),3);
 }
 else{
 	f = atan(1/ 2 * c + 1);
